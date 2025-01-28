@@ -1,0 +1,68 @@
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Título */
+h1 {
+    font-size: 2em;
+    color: #25D366; /* Verde de WhatsApp */
+    margin-bottom: 20px;
+}
+
+/* Subtítulo */
+p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Enlace de Adsterra */
+a {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px 0;
+    background-color: #25D366; /* Verde de WhatsApp */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+a:hover {
+    background-color: #128C7E; /* Verde más oscuro de WhatsApp */
+    transform: translateY(-5px);
+}
+
+/* Responsive: Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
